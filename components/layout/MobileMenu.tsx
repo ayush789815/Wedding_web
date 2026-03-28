@@ -46,7 +46,7 @@ export default function MobileMenu() {
         clipPath: 'inset(0 0 100% 0)',
         duration: 0.6,
         ease: 'expo.inOut',
-        onComplete: () => gsap.set(menuRef.current, { display: 'none' }),
+        onComplete: () => { gsap.set(menuRef.current, { display: 'none' }) },
       })
     }
 

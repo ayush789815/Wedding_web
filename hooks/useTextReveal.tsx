@@ -62,12 +62,17 @@ export function useTextReveal(
 }
 
 /**
- * Helper: splits a string into an array of char objects for animation.
- * Use this to render characters manually in your component.
+ * Helper: splits a string into span.char elements for animation
  */
-export function splitChars(text: string): { char: string; index: number }[] {
-  return text.split('').map((char, index) => ({
-    char: char === ' ' ? '\u00A0' : char,
-    index,
-  }))
+export function splitChars(text: string, className = '') {
+  return text.split('').map((char, i) => (
+    <span
+      key={i}
+      className={`char inline-block ${className}`}
+      style={{ transform: 'translateY(110%)', display: 'inline-block' }}
+      aria-hidden="true"
+    >
+      {char === ' ' ? '\u00A0' : char}
+    </span>
+  ))
 }

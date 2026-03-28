@@ -61,7 +61,7 @@ export default function ScrollProgress() {
         <div
           ref={barRef}
           className="w-full bg-white origin-top"
-          style={{ height: '100%', scaleY: 0 }}
+          style={{ height: '100%', transform: 'scaleY(0)' }}
         />
       </div>
     </div>

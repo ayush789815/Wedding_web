@@ -69,7 +69,7 @@ export default function WhatsYKP() {
 
     // Content fade
     gsap.fromTo(
-      contentRef.current?.querySelectorAll('.fade-in'),
+      contentRef.current?.querySelectorAll('.fade-in') ?? [],
       { opacity: 0, y: 24 },
       {
         opacity: 1,
