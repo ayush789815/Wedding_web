@@ -112,7 +112,7 @@ export default function Footer() {
                   Contact
                 </h3>
                 <p className="text-white/50 text-sm mt-2 group-hover:text-black/60 transition-colors duration-300">
-                  Let's create something beautiful together.<br />We'd love to hear from you.
+                  Let&apos;s create something beautiful together.<br />We&apos;d love to hear from you.
                 </p>
               </div>
               <div className="absolute bottom-6 right-6 z-10 transition-transform duration-300 group-hover:translate-x-1">
