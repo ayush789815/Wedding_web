@@ -44,7 +44,7 @@ export default function ContactInfo() {
         <div className="border-b border-white/5 pb-12">
           <p className="font-poppins text-[10px] tracking-[0.4em] text-white/20 uppercase mb-6">Our promise</p>
           <p className="text-white/50 text-sm leading-relaxed">
-            We respond to every inquiry with care and dedication. Whether you're planning a wedding or a creative project, we're here to help bring your vision to life.
+            We respond to every inquiry with care and dedication. Whether you&apos;re planning a wedding or a creative project, we&apos;re here to help bring your vision to life.
           </p>
         </div>
 
